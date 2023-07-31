@@ -1,5 +1,5 @@
 import FormSubmitButton from '@/components/FormSubmitButton';
-import { prisma } from '@/lib/prisma';
+import { prisma } from '@/lib/db/prisma';
 import { redirect } from 'next/navigation';
 
 export const metadata = {
